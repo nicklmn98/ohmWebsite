@@ -179,7 +179,7 @@ footer .fa:hover {
 #company1 .top {
     background-image: url(tech.jpg);
     background-repeat: no-repeat;
-    height: 35vh;
+    height: fit-content;
 }
 
 #company1 .top h1 {
@@ -209,6 +209,16 @@ footer .fa:hover {
     padding: 7%;
     font-size: 20px;
     font-weight: bold;
+}
+
+#client {
+    border: 1px solid #CEBAA7;
+    text-align: center;
+    height: fit-content;
+    padding: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #CEBAA7;
 }
 
 /*contact page */
@@ -307,6 +317,7 @@ footer .fa:hover {
     background-image: url(services.jpg);
     background-repeat: no-repeat;
     align-content: center;
+    background-attachment: fixed;
 }
 
 #services1 .accordion {
