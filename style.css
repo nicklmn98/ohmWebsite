@@ -1,0 +1,379 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #812933;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+/* navigation */
+
+nav {
+    width: 100vw;
+    height: 8vh;
+    top: 0;
+    min-height: fit-content;
+}
+
+.container nav {
+    background-color: orange;
+}
+
+.nav-item :hover {
+    border: 2px solid #2B282F;
+}
+
+/*footer */
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #AFAFA6;
+    background-color: #343a40;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 10.0rem;
+    font-size: medium;
+}
+
+footer .fa {
+    font-size: 35px;
+}
+
+footer .fa:hover {
+    color: #EFBDBE;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.leftfooter {
+    text-align: center;
+}
+
+/*index page */
+
+#showcasehome {
+    background-image: url(tablet.jpg);
+    height: 70vh;
+    width: 100vw;
+    background-attachment: fixed;
+    text-align: center;
+    color: #AFAFA6;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#showcasehome div {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    margin: 5px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid #812933;
+    color: #812933;
+    background-blend-mode: multiply;
+}
+
+#showcasehome div .fa:hover {
+    color: #CEBAA7;
+}
+
+#showcasehome h1 {
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+#aboutus {
+    height: 30vh;
+    position: relative;
+    text-align: center;
+    color: #AFAFA6;
+    align-content: center;
+}
+
+#layover {
+    position: relative;
+    width: 100vw;
+    background-color: #CEBAA7;
+    min-height: fit-content;
+    height: 80vh;
+    width: fit-content;
+}
+
+.prodtitle {
+    text-align: center;
+    background-image: url(red.svg);
+    height: 10vh;
+    color: #CEBAA7;
+    background-attachment: fixed;
+    width: 100vw;
+    padding: 3%;
+}
+
+.prodtitle h1 {
+    font-size: 35px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#layover .container {
+    position: relative;
+    width: 50%;
+    padding: ;
+}
+
+#layover .imgover {
+    display: block;
+    width: 15vw;
+    height: 15vh;
+    border: 2px black solid;
+}
+
+#layover .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #EFBDBE;
+}
+
+#layover .container:hover .overlay {
+    opacity: 1;
+}
+
+#layover .text {
+    color: rgb(46, 40, 40);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*company page */
+
+#company1 {
+    height: fit-content;
+    background-color: #7B2A33;
+    width: 100vw;
+    position: relative;
+    top: 7.5vh;
+}
+
+#company1 .top {
+    background-image: url(tech.jpg);
+    background-repeat: no-repeat;
+    height: 35vh;
+}
+
+#company1 .top h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vh;
+    font-size: 15vh;
+    color: #CEBAA7;
+}
+
+#company1 .establish {
+    background-image: url(comp.jpg);
+    height: fit-content;
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #CEBAA7;
+    padding: 3%;
+}
+
+#mission {
+    border: 1px solid #CEBAA7;
+    text-align: center;
+    height: 537px;
+    width: 762px;
+    background-image: url(ohm.jpg);
+    padding: 7%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*contact page */
+
+#contact1 {
+    height: fit-content;
+    background-color: ;
+    width: 100vw;
+    position: relative;
+    top: 7.5vh;
+}
+
+#contact1 form {
+    border: 1px black solid;
+    padding: 4%;
+    background-color: #D8C3B6;
+}
+
+#contact1 .left {
+    color: #CEBAA7;
+    padding: 4%;
+    ;
+}
+
+#contact1 .left .fa {
+    font-size: 35px;
+}
+
+#contact1 .top {
+    background-image: url(contact.jpg);
+    height: 35vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #CEBAA7;
+    font-size: 35vh;
+    font-weight: 800;
+}
+
+#contact1 h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30vh;
+    font-size: 15vh;
+}
+
+/*product page */
+
+#products1 {
+    height: fit-content;
+    background-color: #994E58;
+    width: 100vw;
+    position: relative;
+}
+
+#products1 .top {
+    background-image: url(prodlogo.jpg);
+    height: 40vh;
+    text-align: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #CEBAA7;
+    font-size: 15vh;
+    font-weight: 800;
+}
+
+#products1 .top h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40vh;
+    font-weight: bold;
+    color: #994E58;
+}
+
+#products1 h1 {
+    color: #CEBAA7;
+    font-size: 9vh;
+}
+
+#products1 p {
+    background-color: #CEBAA7;
+    color: #994E58;
+}
+
+/*services page */
+
+#services1 {
+    height: 160vh;
+    background-image: url(red.svg);
+    width: 100vw;
+    position: relative;
+    top: 7.5vh;
+}
+
+#services1 .top {
+    height: 35vh;
+    background-image: url(services.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+#services1 .accordion {
+    padding: 5%;
+}
+
+#services1 .card {
+    background-color: #A3A3A3;
+    color: white;
+}
+
+#services1 .card-body {
+    background-color: #EFBDBE;
+    color: #424242;
+}
+
+#headingTwo button:hover {
+    color: #994E58;
+    font-weight: bold;
+}
+
+#headingOne button:hover {
+    color: #994E58;
+    font-weight: bold;
+}
+
+#headingThree button:hover {
+    color: #994E58;
+    font-weight: bold;
+}
+
+#headingFour button:hover {
+    color: #994E58;
+    font-weight: bold;
+}
+
+/*events page */
+
+#events1 {
+    height: fit-content;
+    width: 100vw;
+    position: relative;
+    top: 7.5vh;
+}
+
+#events1 .top {
+    background-color: #424242;
+    height: 25vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #CEBAA7;
+    font-size: 35vh;
+    font-weight: 800;
+}
+
+#events1 .top h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35vh;
+}
+
+#events1 .news {
+    height: fit-content;
+    border: 1 px solid black;
+    padding: 15%;
+}
+
+#events1 .card {
+    background-color: #CEBAA7;
+}
