@@ -6,13 +6,14 @@ body {
     background-color: #812933;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Merriweather', serif;
+    overflow-x: hidden;
 }
 
 /* navigation */
 
 nav {
     width: 100vw;
-    height: 8vh;
+    height: fit-content;
     top: 0;
     min-height: fit-content;
 }
@@ -36,7 +37,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 10.0rem;
+    height: fit-content;
     font-size: medium;
 }
 
@@ -59,7 +60,7 @@ footer .fa:hover {
 #showcasehome {
     background-image: url(tablet.jpg);
     height: 70vh;
-    width: 100vw;
+    width: cover;
     background-attachment: fixed;
     text-align: center;
     color: #AFAFA6;
@@ -74,12 +75,12 @@ footer .fa:hover {
     left: 35%;
     transform: translate(-50%, -50%);
     margin: 5px;
-    padding: 10px;
+    padding: 5%;
     width: fit-content;
     height: fit-content;
-    border: 3px solid #812933;
     color: #812933;
-    background-blend-mode: multiply;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 5);
+    font-weight: bolder;
 }
 
 #showcasehome div .fa:hover {
@@ -92,11 +93,12 @@ footer .fa:hover {
 }
 
 #aboutus {
-    height: 30vh;
+    height: fit-content;
     position: relative;
     text-align: center;
     color: #AFAFA6;
     align-content: center;
+    font-size: 30px;
 }
 
 #layover {
@@ -163,6 +165,11 @@ footer .fa:hover {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#caption {
+    position: absolute;
     text-align: center;
 }
 
@@ -300,12 +307,13 @@ footer .fa:hover {
 #products1 p {
     background-color: #CEBAA7;
     color: #994E58;
+    vertical-align: middle;
 }
 
 /*services page */
 
 #services1 {
-    height: 160vh;
+    height: 175vh;
     background-image: url(red.svg);
     width: 100vw;
     position: relative;
@@ -316,8 +324,17 @@ footer .fa:hover {
     height: 35vh;
     background-image: url(services.jpg);
     background-repeat: no-repeat;
-    align-content: center;
     background-attachment: fixed;
+    width: 100vw;
+}
+
+#services1 .top h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35vh;
+    font-weight: bold;
+    color: #994E58;
+    font-size: 9vh;
 }
 
 #services1 .accordion {
