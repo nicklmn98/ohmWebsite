@@ -41,6 +41,10 @@ footer {
     font-size: medium;
 }
 
+footer a {
+    color: #AFAFA6;
+}
+
 footer .fa {
     font-size: 35px;
 }
@@ -252,6 +256,10 @@ footer .fa:hover {
 
 #contact1 .left .fa {
     font-size: 35px;
+}
+
+#contact1 a {
+    color: #CEBAA7;
 }
 
 #contact1 .top {
